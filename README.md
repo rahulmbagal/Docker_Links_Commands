@@ -64,7 +64,7 @@ create a file with name "Dockerfile" withoutany filetype
 then below line enter:
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-# Use an existing docker image as a base
+# Use an existing docker image as a base i.e "tagging the image"
 
 FROM alpine
 
@@ -80,8 +80,14 @@ CMD ["redis-server"]
 then run the follwing command:
 
 docker build .
+then 
+docher run <docker id from the "docker build ." command>
 
+or
 
+docker build -t <your Docker ID / (Respo or projectname) : version>
+
+example: docker build -t rahulbagal/redi_server:latest . 
 
 ----------------------------------------------------------------------------------------------------------
 
