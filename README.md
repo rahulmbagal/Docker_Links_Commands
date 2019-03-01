@@ -91,8 +91,32 @@ example: docker build -t rahulbagal/redi_server:latest .
 
 ----------------------------------------------------------------------------------------------------------
 
+# creating a new image from CLI same as above and not recommended this steps:
+
+Use terminal 1:
+
+docker run -it alpine sh
+
+then install redis
+
+#apk add --update redis
+
+Use terminal 2:
+
+docker ps
+
+docker commit -c 'CMD["redis-server"]' <Docker_ID>
+
+docker run <use the id from the above command >
 
 
 
 
+
+
+
+
+
+
+----------------------------------------------------------------------------------------------------------
 
