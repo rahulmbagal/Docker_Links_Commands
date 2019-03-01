@@ -38,7 +38,7 @@ docker stop/kill <container-id>
 
 docker exec  -it or -i -t  <container-id> <command>
 
-example
+example:
 
 docker run redis
 
