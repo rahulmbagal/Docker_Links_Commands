@@ -53,7 +53,7 @@ docker exec  -it  <container-id> sh/zsh/bash
 
 example
 
-docker exec -it busybox sh
+docker exec -it <container-id>  sh
 
 ----------------------------------------------------------------------------------------------------------
 
@@ -81,7 +81,7 @@ then run the follwing command:
 
 docker build .
 then 
-docher run <docker id from the "docker build ." command>
+docker run <docker id from the "docker build ." command>
 
 or
 
