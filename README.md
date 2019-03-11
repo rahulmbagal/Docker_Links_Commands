@@ -66,7 +66,7 @@ create a file with name "Dockerfile" withoutany filetype
 then below line enter:
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-# Use an existing docker image as a base i.e "tagging the image"
+# Use an existing docker image as a base i.e "tagging the image", here apline is a os
 
 FROM alpine
 
