@@ -9,6 +9,8 @@ docker run busybox ls
 
 docker run busybox ping google.com
 
+docker run = docker create <image name> + docker start <container_id>
+
 ------------------------------------------------------------------------------------------------
 docker ps
 
