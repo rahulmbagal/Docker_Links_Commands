@@ -28,7 +28,7 @@ docker start -a <id from "docker ps --all">
 
 # getting logs of the particular container
 
-docker log <container-id>
+docker log <container-id or (docker create hello-word)>
 
 # stop the container 
 
@@ -36,9 +36,9 @@ docker stop/kill <container-id>
 
 ----------------------------------------------------------------------------------------------------------
 
-# multiple command 
+# multiple command mean multiple commandline windows
 
-docker exec  -it or -i -t  <container-id> <command>
+docker exec  -it or -i -t  <container-id or (docker ps)> <command>
 
 example:
 
@@ -49,7 +49,7 @@ docker ps
 docker exec  -it  <container-id> redis-cli
  
 ==============================================
-# type multiple command 
+# type multiple command  - start typin inside cmd in comtainer
 
 docker exec  -it  <container-id> sh/zsh/bash
 
@@ -59,7 +59,7 @@ docker exec -it <container-id>  sh
 
 ----------------------------------------------------------------------------------------------------------
 
-# Creating Container
+# Creating Container 
 
 create a file with name "Dockerfile" withoutany filetype
 
