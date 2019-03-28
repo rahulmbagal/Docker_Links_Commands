@@ -36,7 +36,7 @@ docker stop/kill <container-id>
 
 ----------------------------------------------------------------------------------------------------------
 
-# multiple command mean multiple commandline windows
+# multiple command - mean multiple commandline in different windows
 
 docker exec  -it or -i -t  <container-id or (docker ps)> <command>
 
@@ -64,6 +64,7 @@ docker exec -it <container-id>  sh
 create a file with name "Dockerfile" withoutany filetype
 
 then below line enter:
+
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 # Use an existing docker image as a base i.e "tagging the image", here apline is a os
