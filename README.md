@@ -47,16 +47,20 @@ docker run redis
 docker ps
 
 docker exec  -it  <container-id> redis-cli
+ or 
+docker exec  -i -t  <container-id> redis-cli
+ 
+ Where "-i" is the "STDIN" , -t is the "STDOUT" and STDERR" make sure show out the output in teh screen
  
 ==============================================
-# type multiple command  - start typin inside cmd in comtainer
+# type multiple command  - start typin inside cmd in container
 
 docker exec  -it  <container-id> sh/zsh/bash
 
 example
 
 docker exec -it <container-id>  sh
-
+redis-cli
 ----------------------------------------------------------------------------------------------------------
 
 # Creating Container 
