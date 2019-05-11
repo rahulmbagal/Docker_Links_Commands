@@ -28,7 +28,7 @@ docker start -a <id from "docker ps --all">
 
 # getting logs of the particular container
 
-docker log <container-id or (docker create hello-word)>
+docker logs <container-id or (docker create hello-word)>
 
 # stop the container 
 
