@@ -1,7 +1,7 @@
 # Docker_Links_Commands
+username : rahulmbagal
 
-
-docker run hello-word
+docker run hello-world
 
 docker run busybox echo hi
 
