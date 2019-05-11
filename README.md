@@ -61,6 +61,11 @@ example
 
 docker exec -it <container-id>  sh
 redis-cli
+ 
+ 
+ or 
+ 
+ docker run -it busybox sh
 ----------------------------------------------------------------------------------------------------------
 
 # Creating Container 
