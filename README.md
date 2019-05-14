@@ -121,14 +121,9 @@ docker commit -c 'CMD["redis-server"]' <Docker_ID>
 
 docker run <use the id from the above command >
 
-
-
-
-
-
-
-
-
-
 ----------------------------------------------------------------------------------------------------------
+
+# Making Real Projects with Docker
+
+
 
