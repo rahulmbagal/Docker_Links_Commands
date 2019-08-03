@@ -50,7 +50,7 @@ docker exec  -it  <container-id> redis-cli
  or 
 docker exec  -i -t  <container-id> redis-cli
  
- Where "-i" is the "STDIN" , -t is the "STDOUT" and STDERR" make sure show out the output in teh screen
+ Where "-i" is the "STDIN" , -t is the "STDOUT" and STDERR" make sure show out the output in the screen
  
 ==============================================
 # type multiple command  - start typin inside cmd in container
@@ -100,6 +100,10 @@ or
 docker build -t <your Docker ID / (Respo or projectname) : version>
 
 example: docker build -t rahulbagal/redi_server:latest . 
+
+Here rahulbagal is your docker id
+redi_server is repo pr project name 
+latest is version
 
 ----------------------------------------------------------------------------------------------------------
 
