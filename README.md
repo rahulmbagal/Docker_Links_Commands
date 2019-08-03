@@ -105,6 +105,11 @@ Here rahulbagal is your docker id
 redi_server is repo pr project name 
 latest is version
 
+
+now we can use the docker name instead of id
+
+docker run rahulbagal/redi_server:latest
+
 ----------------------------------------------------------------------------------------------------------
 
 # creating a new image from CLI same as above and not recommended this steps:
